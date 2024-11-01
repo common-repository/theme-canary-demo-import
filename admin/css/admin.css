@@ -1,0 +1,95 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+@keyframes canary-spin {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); }
+  }
+
+.dummy-import{
+    padding: 30px;
+}
+
+.notice {
+    position: relative;
+}
+
+.button-primary.button.upgrade{
+    background-color: #eee;
+    border-color: #eee;
+    color: #000;
+
+}
+
+.button-primary.button.upgrade:hover{
+    border-color: #2271b1;
+    color: #000;
+    opacity: 0.9;
+}
+
+.theme-canary-demo-import {
+  background-color: #c0d6e4;
+  text-align: center;
+  padding: 40px;
+}
+
+.dummy-import-button {
+  padding: 10px 30px;
+  text-decoration: inherit;
+  background: #2271b1;
+  color: #fff;
+  font-size: 16px;
+  display: inline-flex;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.dummy-import-button:hover, .dummy-import-button:focus {
+  opacity: 0.9;
+  color: #fff;
+}
+
+.dashicons-update {
+  animation: canary-spin 2s linear infinite;
+}
+
+.ocdi__gl-item-title {
+    padding: 10px;
+    background-color: rgb(0,115,179);
+    color: #fff;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.pro-plan-btn {
+    background-color: rgb(255, 60, 59);
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 15px;
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid rgb(255, 60, 59);
+}
+
+.pro-plan-btn:hover, .pro-plan-btn:focus {
+    background-color: #fff;
+    color: rgb(255, 60, 59);
+    border: 1px solid rgb(255, 60, 59);
+
+}
+
+.ocdi__content-container-content .ocdi-install-plugins-content-content .plugin-item.plugin-item-wpforms-lite,
+.ocdi__content-container-content .ocdi-install-plugins-content-content .plugin-item.plugin-item-all-in-one-seo-pack,
+.ocdi__content-container-content .ocdi-install-plugins-content-content .plugin-item.plugin-item-google-analytics-for-wordpress,
+.ocdi__title-container, .ocdi-content-notice--warning {
+
+  display: none;
+}
+
+
